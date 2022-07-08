@@ -11,5 +11,7 @@ public interface MusicService {
 
 	List<Songs> getAllSongs();
 	Songs saveSong(Songs song);
+	void story1();
+
 	
 }

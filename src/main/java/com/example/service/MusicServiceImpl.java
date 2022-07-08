@@ -23,10 +23,15 @@ public class MusicServiceImpl implements MusicService{
 	@Override
 	public Songs saveSong(Songs song) {
 		Songs song1=new Songs();
-		
+		int i=5;
 		return musicRepo.save(song);
 		
 		
+	}
+
+	@Override
+	public void story1() {
+		System.out.println("from story1 branch");
 	}
 
 }
