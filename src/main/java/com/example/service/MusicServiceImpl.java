@@ -33,7 +33,7 @@ public class MusicServiceImpl implements MusicService{
 	public void story1() {
 		String identifier="story1";
 		System.out.println("from story1 branch");
-		System.out.println("changes done from story 2");
+		System.out.println("removed some thing in story2");
 	}
 
 }
