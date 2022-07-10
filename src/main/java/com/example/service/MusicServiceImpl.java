@@ -31,6 +31,7 @@ public class MusicServiceImpl implements MusicService{
 
 	@Override
 	public void story1() {
+		String identifier="story1";
 		System.out.println("from story1 branch");
 	}
 
