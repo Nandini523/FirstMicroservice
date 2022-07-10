@@ -34,6 +34,7 @@ public class MusicServiceImpl implements MusicService{
 		String identifier="story1";
 		System.out.println("from story1 branch");
 		System.out.println("removed some thing in story2");
+		System.out.println("some extra lines in story 2");
 	}
 
 }
